@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 90px; */
+}
+#nav img{
+    height: 120px;
+    margin-left: 30px;
+}
+#nav h1{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav h3{
+    font-family: arial;
+}
+#nav i{
+    font-size: 20px;
+}
+#prt1{
+    display: flex;
+    align-items: center;
+}
+#prt2 input{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: #c0c0c7;
+    text-align: center;
+}
+#prt3{
+    display: flex;
+    margin-right: 20px;
+    width: 20%;
+    justify-content: center;
+    gap: 20px;
+}
+#center{
+    height: calc(100% - 200px); 
+    width: 100%;
+    /* background-color: #000; */
+    position: relative;
+}
+#box1{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#EA4D2C,#FFA62E);
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    transition: all ease 0.5s;
+}
+#box1 img{
+    height: 100%;
+    position: absolute;
+    top: -40%;     
+}
+#box1 h1{
+    top: 65%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#box1 h6{
+    top: 80%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#box2{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: linear-gradient(to right,red,rgb(180, 59, 59));
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    transition: all ease 0.5s;
+}
+#box2 img{
+    height: 120%;
+    position: absolute;
+    top: -50%;     
+}
+#box2 h1{
+    top: 65%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#box2 h6{
+    top: 85%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#box3{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background: linear-gradient(to right,rgb(111, 0, 255),rgb(187, 150, 247));
+    position: absolute;
+    top: 30%;
+    left: 53%;  
+    transition: all ease 0.5s; 
+}
+#box3 img{
+    height: 98%;
+    position: absolute;
+    top: -30%;  
+    left: 12%;   
+}
+#box3 h1{
+    top: 65%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#box3 h6{
+    top: 80%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#box4{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#430D27,#9e6779);
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    transition: all ease 0.5s;
+}
+#box4 img{
+    height: 120%;
+    position: absolute;
+    top: -55%;
+    left: 5%;     
+}
+#box4 h1{
+    top: 65%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#box4 h6{
+    top: 85%;
+    position: absolute;
+    margin-left: 35px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#bottom{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bottom #left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+#left h5{
+    font-weight: 700;
+    font-family: arial;
+    color: #555;
+}
+#bottom #right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    font-size: 20px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+#right h5{
+    font-weight: 900;
+    font-family: arial;
+    color: #000;
+}
+#box1:hover{
+    scale: 1.1;
+}
+#box2:hover{
+    scale: 1.1;
+}
+#box3:hover{
+    scale: 1.1;
+}
+#box4:hover{
+    scale: 1.1;
+}
+#left h5:hover{
+    color: #000;
+}
